@@ -2,6 +2,7 @@
 infectious disease prediction model. SIR model, SEIR model and more
 
 # Code
+**SIR**
 ```js
 function idpSIR(s, i, r, eons, rateSI, rateIR) {
 	var n = s+i+r;
@@ -21,3 +22,6 @@ function idpSIR(s, i, r, eons, rateSI, rateIR) {
 	return [Susceptible, Infected, Resistant];
 }
 ```
+
+# Developer
+DipokalHHJ <hhj@devent.kr>  
